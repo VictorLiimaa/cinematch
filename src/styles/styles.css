@@ -6,7 +6,7 @@ html {
   height: 100%;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
-    url("../../public/assets/R.jpeg");
+    url('../../public/assets/R.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -318,7 +318,7 @@ html {
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
   padding-left: 1rem;
-  background-image:url("../../public/assets/Frame\ 12olho.svg");
+  background-image:url('../../public/assets/Frame\ 12olho.svg');
   background-repeat: no-repeat;
   background-position: right 10px center;
   
