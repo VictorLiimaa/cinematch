@@ -1,4 +1,4 @@
-import Login from './components/login';
+import Login from './components/telalogin';
 
 export default function LoginPage() {
   return <Login />;
