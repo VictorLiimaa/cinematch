@@ -1,0 +1,28 @@
+import Link from "next/link";
+import Logo from "../../../public/assets/cinemacth3-cropped.svg";
+import Image from "next/image";
+export default function IniciarQuest() {
+  return (
+    <div className="containerInicial">
+      <div className="navInicial">
+        <Image src={Logo} alt="logo" className="Logo-inicio" />
+      </div>
+      <div className="boasvindas">
+        <div className="titulo-inicial">
+          <h1>Olá, Usuario! Bem-vindo ao Cinematch</h1>
+        </div>
+        <div className="subtitle-inicial">
+          <p>
+            Nos conte mais sobre seus gostos e preferências para personalizar
+            suas recomendações de filmes.
+          </p>
+        </div>
+        <div>
+            <Link href="/" className="btn-iniciar-questionario">
+                Iniciar Questionário
+            </Link>
+        </div>
+      </div>
+    </div>
+  );
+}

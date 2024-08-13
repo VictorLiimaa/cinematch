@@ -23,9 +23,9 @@ export default function Telalogin() {
             placeholder="Digite a sua senha"
             className="inputLogin"
           />
-          <button className="btnLogin" type="button">
+          <Link href="/questionario" className="btnLogin">
             Login
-          </button>
+          </Link>
           <Link href="/" className="esqueceuSenha">
             Esqueceu a senha?
           </Link>
