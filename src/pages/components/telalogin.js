@@ -29,7 +29,7 @@ export default function Telalogin() {
           <Link href="/" className="esqueceuSenha">
             Esqueceu a senha?
           </Link>
-          <Link href="/" className="esqueceuSenha">
+          <Link href="/cadastro" className="esqueceuSenha">
             Cadastre-se
           </Link>
         </div>

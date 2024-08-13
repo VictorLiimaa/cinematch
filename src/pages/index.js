@@ -19,7 +19,7 @@ export default function Home() {
         </h1>
         <h2 className="cadastro">
           Comece a sua experiencia no cinematch
-          <Link className="btn-cadastre-se" href="/login">
+          <Link className="btn-cadastre-se" href="/cadastro">
             Cadastre-se
           </Link>
         </h2>
