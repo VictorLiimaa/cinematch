@@ -6,11 +6,12 @@ html {
   height: 100%;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
-    url('/assets/R.jpeg');
+  url('/assets/R.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .navinicial{
   display: flex;
   width: 100vw;
@@ -525,4 +526,87 @@ html {
 
 .btn-iniciar-questionario:active {
   transform: scale(0.6);
+}
+
+/*Questionario*/
+.containerGenero {
+  text-align: center;
+  padding: 20px;
+  background-color: #0D0C0F;
+  height: 100vh;
+}
+.logo-generos{
+  display: flex;
+  height: 20%;
+}
+.logo-tela-genero{
+  display: flex;
+  width: 10%;
+  height: 40%;
+}
+
+.generos-filmes-fav{
+  display: flex;
+  justify-content: center;
+  height: 10%;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  flex-direction: column;
+}
+
+.generos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin-top: 3%;
+}
+
+.generoButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  width: 16%;
+  height: 3rem;
+  margin: 10px;
+  background-color: transparent;
+  color: #7899D4;
+  border: 2px solid #7899D4;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.8s, color 0.5s;
+}
+
+.generoButton.selected {
+  background-color: #7899D4;
+  color: #ffffff;
+}
+.proximo{
+  display: flex;
+  justify-content: end;
+  align-items:end;
+  height: 20%;
+  font-family: "Poppins", sans-serif;
+}
+
+.nextButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 2.5rem;
+  margin-top: 20px;
+  background: linear-gradient(45deg, #7f56da, #9b51e0);
+  border: none;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.nextButton:hover {
+  background: linear-gradient(45deg, #9b51e0, #7f56da);
 }

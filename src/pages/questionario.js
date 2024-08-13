@@ -1,4 +1,4 @@
-import Inicio from '../pages/components/primeiratela';
+import Inicio from './components/primeiratela';
 
 export default function Questionario() {
     return<Inicio />;

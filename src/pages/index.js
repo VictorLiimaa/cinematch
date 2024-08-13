@@ -7,6 +7,7 @@ import SobreNos from "./components/sobenos";
 export default function Home() {
   return (
     <div className="ContainerInicial">
+      <div className='imagem-Fundo'>
       <div className="navinicial">
         <Image className="logo" src={Logo} alt="logo" />
         <Link href="/login" className="btn-login">
@@ -23,6 +24,7 @@ export default function Home() {
             Cadastre-se
           </Link>
         </h2>
+      </div>
       </div>
       <SobreNos />
       <div className="containerFaq">

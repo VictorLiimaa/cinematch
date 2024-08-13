@@ -18,7 +18,7 @@ export default function IniciarQuest() {
           </p>
         </div>
         <div>
-            <Link href="/" className="btn-iniciar-questionario">
+            <Link href="/genero" className="btn-iniciar-questionario">
                 Iniciar Questionário
             </Link>
         </div>
