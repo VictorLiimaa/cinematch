@@ -56,7 +56,7 @@ export default function Telacadastro() {
         <div className="tela-cadastro">
           <h1 className="titulo-cadastro">Crie a sua conta</h1>
           {error && <p className="error">{error}</p>}
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} className="formulario">
           <h2 className="subtitulo-cadastro">Nome</h2>
           <input
             type="text"
@@ -87,10 +87,6 @@ export default function Telacadastro() {
           <button type="submit" className="btnLogin">
               Cadastro
           </button>
-          {/*
-           <Link href="/questionario" className="btnLogin">
-            Cadastro
-          </Link> */}
           </form>
         </div>
       </div>

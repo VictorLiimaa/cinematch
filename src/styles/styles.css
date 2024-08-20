@@ -381,6 +381,10 @@ html {
   margin-left: 15%;
 }
 
+.formulario{
+  width: 100%;
+}
+
 .tela-cadastro{
   display: flex;
   align-items:flex-start;
