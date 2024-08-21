@@ -4,50 +4,34 @@ import Logo from "../../../public/assets/cinemacth3-cropped.svg";
 import Image from "next/image";
 
 export default function Telacadastro() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [error, setError] = useState(null);
   const router = useRouter();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Formulário enviado');
-  
-    try {
-      const res = await fetch("/api/register", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          password,
-        }),
-      });      
-  
-      const responseText = await res.text();
-      console.log('Resposta do servidor:', responseText);
-  
-      if (!res.ok) {
-        setError(responseText);
-        return;
-      }
-  
-      const data = JSON.parse(responseText);
-  
-      if (data.error) {
-        setError(data.error);
-      } else {
-        router.push("/questionario");
-      }
-    } catch (error) {
-      console.error('Erro ao enviar o formulário', error);
-      setError('Erro ao processar a solicitação.');
+
+    const res = await fetch('/api/auth/register', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name,
+        email,
+        password,
+      }),
+    });
+
+    if (res.status === 201) {
+      router.push('/login'); // Redireciona após cadastro bem-sucedido
+    } else {
+      const data = await res.json();
+      setError(data.error);
     }
   };
-  
 
   return (
     <div className="container">
