@@ -76,7 +76,20 @@ export default function Telacadastro() {
           </button>
           </form>
 
-          {error && <p style={{ color: 'red' }}>{error}</p>} {/* Exibir mensagem de erro */}
+          {error && <p style={{
+                position: "fixed",
+                top: "10px",
+                left: "50%",
+                transform: "translateX(-50%)",
+                padding: "10px 20px",
+                backgroundColor: "#f8d7da",
+                color: "#721c24",
+                border: "1px solid #f5c6cb",
+                borderRadius: "4px",
+                fontSize: "14px",
+                zIndex: 1000,
+                boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+              }}>{error}</p>} {/* Exibir mensagem de erro */}
 
         </div>
       </div>
