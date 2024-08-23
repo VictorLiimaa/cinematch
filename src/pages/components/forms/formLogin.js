@@ -1,11 +1,10 @@
-import { useState } from 'react';
-import { signIn } from 'next-auth/react';
-import { useRouter } from 'next/router';
-import Link from 'next/link';
-import Logo from "../../../public/assets/cinemacth3-cropped.svg";
-import Image from 'next/image'
-import GoogleBtn from '../buttons/googleBtn';
-
+import { useState } from "react";
+import { signIn } from "next-auth/react";
+import { useRouter } from "next/router";
+import Link from "next/link";
+import Logo from "../../../../public/assets/cinemacth3-cropped.svg";
+import Image from "next/image";
+import GoogleBtn from "../buttons/googleBtn";
 
 export default function Telalogin() {
   const [error, setError] = useState("");
@@ -20,16 +19,16 @@ export default function Telalogin() {
       redirect: false,
       email,
       password,
-      callbackUrl: "/questionario",  // Redirecionar para o questionário após login 
+      callbackUrl: "/questionario", // Redirecionar para o questionário após login
     });
 
     if (result.error) {
-      setError(result.error);  // Definir a mensagem de erro
+      setError(result.error); // Definir a mensagem de erro
     } else {
-      router.push(result.url);  // Redirecionar após login
+      router.push(result.url); // Redirecionar após login
     }
   };
-  
+
   return (
     <div className="container">
       <div className="containerLogin">
@@ -39,28 +38,23 @@ export default function Telalogin() {
           <h1 className="titulo">Faca login na sua conta</h1>
           <h2 className="subtitulo">E-mail</h2>
           <form onSubmit={handleSubmit} className="formulario">
+            <input
+              name="email"
+              type="text"
+              placeholder="Digite o seu email"
+              className="inputLogin"
+            />
+            <h2 className="subtitulo">Senha</h2>
 
-          <input
-            name="email"
-            type="text"
-            placeholder="Digite o seu email"
-            className="inputLogin"
-          />
-          <h2 className="subtitulo">Senha</h2>
-
-          <input
-            name="password"
-            type="password"
-            placeholder="Digite a sua senha"
-            className="inputLogin"
-          />
-          <button className="btnLogin">
-            Login
-          </button>
+            <input
+              name="password"
+              type="password"
+              placeholder="Digite a sua senha"
+              className="inputLogin"
+            />
+            <button className="btnLogin">Login</button>
           </form>
-
-          {error && <p style={{ color: 'red' }}>{error}</p>}  {/* Exibir mensagem de erro */}
-
+          {error && <p style={{ color: "red" }}>{error}</p>}
           <GoogleBtn />
 
           <Link href="/" className="esqueceuSenha">

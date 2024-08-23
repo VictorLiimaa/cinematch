@@ -6,29 +6,27 @@ html {
   height: 100%;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
-  url('/assets/R.jpeg');
+    url("/assets/R.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.navinicial{
+.navinicial {
   display: flex;
   width: 100vw;
   justify-content: space-between;
-
 }
 
-.logo{
+.logo {
   display: flex;
   width: 11%;
   height: 30%;
   margin-top: 3%;
   margin-left: 4%;
-
 }
 
-.btn-login{
+.btn-login {
   display: flex;
   background-color: #7899d4;
   color: #ffffff;
@@ -54,7 +52,7 @@ html {
 .btn-login:active {
   transform: scale(0.6);
 }
-.sobre{
+.sobre {
   display: flex;
   height: 75vh;
   width: 100vw;
@@ -63,15 +61,15 @@ html {
   font-family: "Poppins", sans-serif;
   color: #fff;
   flex-direction: column;
-  gap : 6%;
+  gap: 6%;
 }
-.fraseEfeito{
+.fraseEfeito {
   display: flex;
   width: 40vw;
   margin-left: 3%;
 }
 
-.cadastro{
+.cadastro {
   display: flex;
   width: 27vw;
   justify-content: center;
@@ -84,20 +82,20 @@ html {
   margin-right: 6%;
 }
 
-.btn-cadastre-se{
- color: #fff;
- font-weight: 500;
+.btn-cadastre-se {
+  color: #fff;
+  font-weight: 500;
 }
 
-.containerSobreNos{
+.containerSobreNos {
   display: flex;
-  background-color:#0A0A0A;
+  background-color: #0a0a0a;
   width: 100vw;
   height: 100vh;
   justify-content: center;
 }
 
-.sobreNos{
+.sobreNos {
   display: flex;
   width: 40vw;
   height: 50vh;
@@ -109,13 +107,13 @@ html {
   flex-direction: column;
 }
 
-.imagemDescricao{
+.imagemDescricao {
   display: flex;
   width: 40%;
   margin-left: 2%;
   margin-top: 5%;
 }
-.sobreTitulo{
+.sobreTitulo {
   display: flex;
   width: 40vw;
   height: 10vh;
@@ -123,11 +121,10 @@ html {
   font-family: "Poppins", sans-serif;
   color: #fff;
   text-align: right;
-  justify-content:left;
+  justify-content: left;
   align-items: center;
-  
 }
-.descricao{
+.descricao {
   display: flex;
   width: 40vw;
   height: 30vh;
@@ -140,22 +137,21 @@ html {
   align-items: center;
 }
 
-.linha{
+.linha {
   width: 100vw;
   background-color: #fff;
 }
 
-.containerPub{
+.containerPub {
   display: flex;
-  background-color:#0A0A0A;
+  background-color: #0a0a0a;
   width: 100vw;
   height: 100vh;
   justify-content: center;
   flex-direction: row-reverse;
-
 }
 
-.sobrePublico{
+.sobrePublico {
   display: flex;
   width: 40vw;
   height: 80vh;
@@ -166,17 +162,14 @@ html {
   flex-direction: column;
 }
 
-.imagemPub{
+.imagemPub {
   display: flex;
   width: 40%;
   margin-top: 4%;
 }
 
-
-
-
 /*FAQ*/
-.faqTitle{
+.faqTitle {
   display: flex;
   color: #fff;
   font-family: "Poppins", sans-serif;
@@ -184,12 +177,11 @@ html {
   height: 30vh;
   justify-content: center;
   align-items: center;
-  
 }
-.containerFaq{
+.containerFaq {
   display: flex;
   font-family: "Poppins", sans-serif;
-  background-color:#0A0A0A;
+  background-color: #0a0a0a;
   width: 100vw;
   height: 100vh;
   justify-content: center;
@@ -200,7 +192,7 @@ html {
   height: 100vh;
   margin: auto;
   padding: 1rem;
-  background-color: #0A0A0A;
+  background-color: #0a0a0a;
   border-radius: 8px;
 }
 
@@ -238,13 +230,9 @@ html {
   font-weight: bold;
 }
 
-
-
-
 /*Tela de Login*/
 
-
-.container{
+.container {
   display: flex;
   border-radius: 20px;
   width: 80vw;
@@ -253,47 +241,45 @@ html {
   margin-top: 10%;
   margin-right: 10%;
   margin-bottom: 10%;
-  background-color: #0D0C0F;
+  background-color: #0d0c0f;
 }
 
-.containerLogin{
+.containerLogin {
   display: flex;
-  flex-direction: space-between;
   align-items: center;
   justify-content: center;
   width: 100%;
-  gap: 7%;
-
-  
+  gap: 10%;
 }
 
-.logoTela2{
+.logoTela2 {
   width: 20%;
   margin-left: 15%;
-
+  align-items: center;
+  justify-content: center;
 }
 
-.login{
+.login {
   display: flex;
   width: 35%;
-  height: 60vh;
-  margin-left: 5%;
+  height: 65vh;
+  margin-left: 10%;
   margin-right: 4%;
   flex-direction: column;
   background-color: #131316;
   border-radius: 20px;
 }
 
-.titulo{
+.titulo {
   display: flex;
   margin-left: 10%;
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
-  margin-top: 2.5rem;
+  margin-top: 0.9rem;
   color: #fff;
 }
 
-.subtitulo{
+.subtitulo {
   display: flex;
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
@@ -302,7 +288,7 @@ html {
   margin-left: 10%;
 }
 
-.inputLogin{
+.inputLogin {
   display: flex;
   margin-left: 10%;
   margin-top: 1rem;
@@ -317,7 +303,6 @@ html {
   padding-left: 1rem;
   background-repeat: no-repeat;
   background-position: right 10px center;
-  
 }
 
 .btnLogin {
@@ -338,8 +323,6 @@ html {
   text-decoration: none;
   align-items: center;
   justify-content: center;
-
-
 }
 
 .btnLogin:hover {
@@ -349,8 +332,33 @@ html {
 .btnLogin:active {
   transform: scale(0.6);
 }
+.botao-google{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10%;
+  margin-top: 1.6rem;
+  width: 80%;
+  height: 2.6rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
 
-.esqueceuSenha{
+.imagem-botao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height: 2rem;
+  gap: 5px;
+}
+
+.esqueceuSenha {
   display: flex;
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
@@ -359,12 +367,9 @@ html {
   margin-left: 10%;
 }
 
-
-
 /*Tela de Cadastro*/
 
-
-.containerCadastro{
+.containerCadastro {
   display: flex;
   flex-direction: space-between;
   align-items: center;
@@ -373,18 +378,18 @@ html {
   gap: 7%;
 }
 
-.logoTela3{
+.logoTela3 {
   width: 20%;
   margin-left: 15%;
 }
 
-.formulario{
+.formulario {
   width: 100%;
 }
 
-.tela-cadastro{
+.tela-cadastro {
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
   width: 35%;
   height: 65vh;
   margin-left: 5%;
@@ -394,7 +399,7 @@ html {
   border-radius: 20px;
 }
 
-.titulo-cadastro{
+.titulo-cadastro {
   display: flex;
   margin-left: 10%;
   font-family: "Poppins", sans-serif;
@@ -403,7 +408,7 @@ html {
   color: #fff;
 }
 
-.subtitulo-cadastro{
+.subtitulo-cadastro {
   display: flex;
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
@@ -412,7 +417,7 @@ html {
   margin-left: 10%;
 }
 
-.inputCadastro{
+.inputCadastro {
   display: flex;
   margin-left: 10%;
   margin-top: 1rem;
@@ -427,7 +432,6 @@ html {
   padding-left: 1rem;
   background-repeat: no-repeat;
   background-position: right 10px center;
-  
 }
 
 .btnCadastro {
@@ -454,23 +458,20 @@ html {
   transform: scale(0.6);
 }
 
-
 /* Tela Inicial */
 
-
-.containerInicial{
+.containerInicial {
   width: 100%;
   height: 100%;
-  background-color: #0D0C0F;
+  background-color: #0d0c0f;
 }
 
-.navInicial{
+.navInicial {
   display: flex;
   height: 23vh;
   width: 100vw;
-
 }
-.Logo-inicio{
+.Logo-inicio {
   display: flex;
   width: 10%;
   height: 30%;
@@ -478,7 +479,7 @@ html {
   margin-left: 4%;
 }
 
-.SingOutBtn{
+.SingOutBtn {
   display: flex;
   background-color: #7899d4;
   color: #ffffff;
@@ -497,7 +498,7 @@ html {
   text-decoration: none;
 }
 
-.boasvindas{
+.boasvindas {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -510,19 +511,19 @@ html {
   margin-top: 5%;
 }
 
-.titulo-inicial{
+.titulo-inicial {
   font-size: 1.4rem;
   width: 40vw;
   text-align: center;
 }
 
-.subtitle-inicial{
+.subtitle-inicial {
   font-size: 1rem;
   width: 40vw;
   text-align: center;
 }
 
-.btn-iniciar-questionario{
+.btn-iniciar-questionario {
   display: flex;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
@@ -537,11 +538,11 @@ html {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  background: linear-gradient(45deg, #6a4dff, #B187E8, #B187E8);
+  background: linear-gradient(45deg, #6a4dff, #b187e8, #b187e8);
 }
 
 .btn-iniciar-questionario:hover {
-  background: linear-gradient(45deg, #7899D4, #f06595, #B187E8);
+  background: linear-gradient(45deg, #7899d4, #f06595, #b187e8);
 }
 
 .btn-iniciar-questionario:active {
@@ -552,20 +553,20 @@ html {
 .containerGenero {
   text-align: center;
   padding: 20px;
-  background-color: #0D0C0F;
+  background-color: #0d0c0f;
   height: 100vh;
 }
-.logo-generos{
+.logo-generos {
   display: flex;
   height: 20%;
 }
-.logo-tela-genero{
+.logo-tela-genero {
   display: flex;
   width: 10%;
   height: 40%;
 }
 
-.generos-filmes-fav{
+.generos-filmes-fav {
   display: flex;
   justify-content: center;
   height: 10%;
@@ -578,7 +579,7 @@ html {
 .generos {
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content: center;
   margin-top: 3%;
 }
 
@@ -592,27 +593,28 @@ html {
   height: 3rem;
   margin: 10px;
   background-color: transparent;
-  color: #7899D4;
-  border: 2px solid #7899D4;
+  color: #7899d4;
+  border: 2px solid #7899d4;
   border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.8s, color 0.5s;
 }
 
 .generoButton.selected {
-  background-color: #7899D4;
+  background-color: #7899d4;
   color: #ffffff;
 }
-.generoButton:focus, .generoButton:hover {
+.generoButton:focus,
+.generoButton:hover {
   z-index: 10;
   transform: scale(1.1);
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
-  outline: none; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  outline: none;
 }
-.proximo{
+.proximo {
   display: flex;
   justify-content: end;
-  align-items:end;
+  align-items: end;
   height: 20%;
   font-family: "Poppins", sans-serif;
 }
@@ -624,7 +626,7 @@ html {
   width: 10%;
   height: 2.5rem;
   margin-top: 20px;
-  background: linear-gradient(45deg, #6a4dff, #B187E8, #B187E8);
+  background: linear-gradient(45deg, #6a4dff, #b187e8, #b187e8);
   border: none;
   text-decoration: none;
   border-radius: 10px;
@@ -632,7 +634,6 @@ html {
   cursor: pointer;
   transition: background 0.3s;
 }
-
 
 .nextButton:hover {
   background: linear-gradient(45deg, #9b51e0, #7f56da);

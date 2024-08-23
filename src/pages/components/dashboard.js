@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Logo from "../../../public/assets/cinemacth3-cropped.svg";
 import Image from "next/image";
-import SignOut from "./buttons/signoutBtn";
+import SignOut from "./buttons/signOutBtn";
 
 
 export default function IniciarQuest() {
