@@ -19,15 +19,15 @@
     "next-auth": "^4.24.7",
     "prisma": "^5.18.0",
     "react": "^18",
-    "react-dom": "^18",
-    "typescript": "^5.5.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "@types/node": "22.4.0",
-    "@types/react": "18.3.3",
+    "@types/node": "^22.4.0",
+    "@types/react": "^18.3.3",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8",
-    "tailwindcss": "^3.4.10"
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4"
   }
 }

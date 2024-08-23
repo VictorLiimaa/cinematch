@@ -244,9 +244,6 @@ html {
 /*Tela de Login*/
 
 
-
-
-
 .container{
   display: flex;
   border-radius: 20px;
@@ -479,6 +476,25 @@ html {
   height: 30%;
   margin-top: 3%;
   margin-left: 4%;
+}
+
+.SingOutBtn{
+  display: flex;
+  background-color: #7899d4;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  margin-top: 3rem;
+  margin-right: 6%;
+  width: 10%;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  transition: 0.9s;
+  cursor: pointer;
+  letter-spacing: 1px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .boasvindas{

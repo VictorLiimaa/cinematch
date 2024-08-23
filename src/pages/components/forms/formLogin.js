@@ -1,54 +1,65 @@
 import { useState } from 'react';
 import { signIn } from 'next-auth/react';
 import { useRouter } from 'next/router';
-import Logo from "../../../public/assets/cinemacth3-cropped.svg";
 import Link from 'next/link';
+import Logo from "../../../public/assets/cinemacth3-cropped.svg";
 import Image from 'next/image'
-import GoogleBtn from './googleBtn';
+import GoogleBtn from '../buttons/googleBtn';
 
 
 export default function Telalogin() {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [error, setError] = useState(null);
+  const [error, setError] = useState("");
   const router = useRouter();
 
-  const handleLogin = async (e) => {
-    e.preventDefault();
-    const res = await signIn('credentials', {
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const email = event.target.email.value;
+    const password = event.target.password.value;
+
+    const result = await signIn("credentials", {
       redirect: false,
       email,
       password,
+      callbackUrl: "/questionario",  // Redirecionar para o questionário após login 
     });
 
-    if (res.error) {
-      setError(res.error);
+    if (result.error) {
+      setError(result.error);  // Definir a mensagem de erro
     } else {
-      router.push('/questionario'); // Redireciona após login bem-sucedido
+      router.push(result.url);  // Redirecionar após login
     }
   };
-
+  
   return (
     <div className="container">
       <div className="containerLogin">
-        <Image src={Logo} alt="logo" className="logoTela2" />/
+        <Image src={Logo} alt="logo" className="logoTela2" />
+
         <div className="login">
           <h1 className="titulo">Faca login na sua conta</h1>
           <h2 className="subtitulo">E-mail</h2>
+          <form onSubmit={handleSubmit} className="formulario">
+
           <input
+            name="email"
             type="text"
             placeholder="Digite o seu email"
             className="inputLogin"
           />
           <h2 className="subtitulo">Senha</h2>
+
           <input
+            name="password"
             type="password"
             placeholder="Digite a sua senha"
             className="inputLogin"
           />
-          <Link href="/questionario" className="btnLogin">
+          <button className="btnLogin">
             Login
-          </Link>
+          </button>
+          </form>
+
+          {error && <p style={{ color: 'red' }}>{error}</p>}  {/* Exibir mensagem de erro */}
 
           <GoogleBtn />
 

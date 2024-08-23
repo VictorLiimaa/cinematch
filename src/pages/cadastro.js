@@ -1,4 +1,4 @@
-import Cadastro from './components/telacadastro';
+import Cadastro from './components/forms/formCadastro';
 
 export default function CadastroPage() {
     return <Cadastro />;

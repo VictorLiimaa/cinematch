@@ -1,11 +1,15 @@
 import Link from "next/link";
 import Logo from "../../../public/assets/cinemacth3-cropped.svg";
 import Image from "next/image";
+import SignOut from "./buttons/signoutBtn";
+
+
 export default function IniciarQuest() {
   return (
     <div className="containerInicial">
       <div className="navInicial">
         <Image src={Logo} alt="logo" className="Logo-inicio" />
+        <SignOut />
       </div>
       <div className="boasvindas">
         <div className="titulo-inicial">

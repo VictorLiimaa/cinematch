@@ -1,26 +1,30 @@
-import { hash } from 'bcryptjs';
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from "@prisma/client";
+import bcrypt from "bcryptjs";
 
 const prisma = new PrismaClient();
 
 export default async function handler(req, res) {
-  if (req.method === 'POST') {
+  if (req.method === "POST") {
     const { name, email, password } = req.body;
 
-    // Verifica se o usuário já existe
-    const existingUser = await prisma.user.findUnique({
+    if (!name || !email || !password) {
+        return res.status(400).json({ message: "Todos os campos são obrigatórios." });
+      }
+
+    // Verificar se o email já está cadastrado
+    const existingUser = await prisma.manualUser.findUnique({
       where: { email },
     });
 
     if (existingUser) {
-      return res.status(409).json({ error: 'Email já está em uso' });
+      return res.status(400).json({ message: "Este e-mail já está cadastrado." });
     }
 
-    // Criptografa a senha
-    const hashedPassword = await hash(password, 10);
+    // Criptografar a senha
+    const hashedPassword = await bcrypt.hash(password, 10);
 
-    // Cria o novo usuário no banco de dados
-    const user = await prisma.user.create({
+    // Criar um novo usuário
+    const user = await prisma.manualUser.create({
       data: {
         name,
         email,
@@ -28,8 +32,9 @@ export default async function handler(req, res) {
       },
     });
 
-    res.status(201).json(user);
+    return res.status(201).json(user);
   } else {
-    res.status(405).json({ error: 'Método não permitido' });
+    res.setHeader("Allow", ["POST"]);
+    return res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 }

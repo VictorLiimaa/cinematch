@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../public/assets/cinemacth3-cropped.svg";
-import FAQ from "./components/faq";
-import SobreNos from "./components/sobenos";
+import FAQ from "./components/buttons/faq";
+import SobreNos from "./components/sobreNos";
 
 export default function Home() {
   return (

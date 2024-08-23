@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Logo from "../../../public/assets/cinemacth3-cropped.svg";
+import Logo from "../../../../public/assets/cinemacth3-cropped.svg";
 import Link from "next/link";
 
 const generos = [

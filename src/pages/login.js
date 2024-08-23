@@ -1,5 +1,5 @@
-import Login from './components/telalogin';
+import Telalogin from "./components/forms/formLogin";
 
 export default function LoginPage() {
-  return <Login />;
+  return <Telalogin />;
 }
