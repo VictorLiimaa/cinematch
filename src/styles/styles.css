@@ -14,7 +14,7 @@ html {
 
 .navinicial {
   display: flex;
-  width: 100vw;
+  width: 100%;
   justify-content: space-between;
 }
 
@@ -481,21 +481,14 @@ html {
 
 .SingOutBtn {
   display: flex;
-  background-color: #7899d4;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  margin-top: 3rem;
-  margin-right: 6%;
-  width: 10%;
-  height: 3rem;
-  border-radius: 10px;
-  font-size: 0.9rem;
-  transition: 0.9s;
-  cursor: pointer;
-  letter-spacing: 1px;
+  justify-content:end ;
   align-items: center;
-  justify-content: center;
-  text-decoration: none;
+
+  margin-left: 80%;
+  height: 80%;
+  border: none;
+  cursor: pointer;
+  background-color: transparent
 }
 
 .boasvindas {

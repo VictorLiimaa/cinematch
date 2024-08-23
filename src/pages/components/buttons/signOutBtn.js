@@ -1,4 +1,6 @@
 import { signOut } from "next-auth/react";
+import Image from "next/image";
+import Logout from "../../../../public/assets/logout-2-svgrepo-com.svg";
 
 export default function SignOut() {
   return (
@@ -6,7 +8,8 @@ export default function SignOut() {
       onClick={() => signOut({ callbackUrl: "/" })}
       className="SingOutBtn"
     >
-      Sair
+      <Image src={Logout}></Image>
+      
     </button>
   );
 }
