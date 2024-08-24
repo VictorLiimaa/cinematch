@@ -76,7 +76,7 @@ export default function Telalogin() {
           )}
           <GoogleBtn />
 
-          <Link href="/" className="esqueceuSenha">
+          <Link href="/esqueceuSenha" className="esqueceuSenha">
             Esqueceu a senha?
           </Link>
           <Link href="/cadastro" className="esqueceuSenha">
