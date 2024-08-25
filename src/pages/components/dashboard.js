@@ -13,7 +13,7 @@ export default function IniciarQuest() {
       </div>
       <div className="boasvindas">
         <div className="titulo-inicial">
-          <h1>Olá, Usuario! Bem-vindo ao Cinematch</h1>
+          <h1>Olá, Usuário! Bem-vindo ao Cinematch</h1>
         </div>
         <div className="subtitle-inicial">
           <p>

@@ -17,7 +17,7 @@
     "cinematch": "file:",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "next": "14.2.5",
+    "next": "^14.2.5",
     "next-auth": "^4.24.7",
     "prisma": "^5.18.0",
     "react": "^18",

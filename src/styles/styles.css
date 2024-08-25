@@ -53,6 +53,7 @@ html {
 .btn-login:active {
   transform: scale(0.6);
 }
+
 .sobre {
   display: flex;
   height: 75vh;
@@ -64,6 +65,7 @@ html {
   flex-direction: column;
   gap: 1rem;
 }
+
 .fraseEfeito {
   display: flex;
   align-items: center;
@@ -115,6 +117,7 @@ html {
   margin-left: 2%;
   margin-top: 5%;
 }
+
 .sobreTitulo {
   display: flex;
   width: 40vw;
@@ -126,6 +129,7 @@ html {
   justify-content: left;
   align-items: center;
 }
+
 .descricao {
   display: flex;
   width: 40vw;
@@ -180,6 +184,7 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 .containerFaq {
   display: flex;
   font-family: "Poppins", sans-serif;
@@ -334,6 +339,7 @@ html {
 .btnLogin:active {
   transform: scale(0.6);
 }
+
 .botao-google{
   display: flex;
   justify-items: center;
@@ -485,7 +491,6 @@ html {
   display: flex;
   justify-content:end ;
   align-items: center;
-
   margin-left: 80%;
   height: 80%;
   border: none;
@@ -551,10 +556,12 @@ html {
   background-color: #0d0c0f;
   height: 100vh;
 }
+
 .logo-generos {
   display: flex;
   height: 20%;
 }
+
 .logo-tela-genero {
   display: flex;
   width: 10%;
@@ -599,6 +606,7 @@ html {
   background-color: #7899d4;
   color: #ffffff;
 }
+
 .generoButton:focus,
 .generoButton:hover {
   z-index: 10;
@@ -606,6 +614,7 @@ html {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   outline: none;
 }
+
 .proximo {
   display: flex;
   justify-content: end;
@@ -632,4 +641,46 @@ html {
 
 .nextButton:hover {
   background: linear-gradient(45deg, #9b51e0, #7f56da);
+}
+
+
+/* Tela de Perfil do usuário */
+
+/* .logo-perfil {
+  display: flex;
+  height: 20%;
+} */
+
+.containerPerfil {
+  display: flex;
+  background-color: #0d0c0f;
+  width: 35vw;
+  height: 100vh;
+}
+
+.containerPerfil-2 {
+  display: flex;
+  background-color: #24222a;
+  width: 35vw;
+}
+
+.logo-tela-perfil {
+  display: flex;
+  width: 25%;
+}
+
+.dadosDePerfil {
+  display: flex;
+  height: 10%;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  /* flex-direction: column; */
+}
+
+.foto-perfil{
+  display: flex;
+  margin-top: 10%;
+  margin-left: 12%;
+  border-radius: 75%;
+  border:#fff solid 6px;
 }

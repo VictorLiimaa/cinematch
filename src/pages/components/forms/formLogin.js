@@ -35,7 +35,7 @@ export default function Telalogin() {
         <Image src={Logo} alt="logo" className="logoTela2" />
 
         <div className="login">
-          <h1 className="titulo">Faca login na sua conta</h1>
+          <h1 className="titulo">Faça login na sua conta</h1>
           <h2 className="subtitulo">E-mail</h2>
           <form onSubmit={handleSubmit} className="formulario">
             <input

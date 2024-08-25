@@ -60,7 +60,7 @@ export default function Genero() {
       </div>
       <div className='proximo'>
         <Link className="nextButton" href='/'>
-          Proximo
+          Próximo
         </Link>
       </div>
     </div>
