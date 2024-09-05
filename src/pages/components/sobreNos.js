@@ -1,6 +1,7 @@
 import ImgDescricao from "../../../public/assets/img cine 1.svg";
 import ImgPub from "../../../public/assets/img cine 1df.svg";
 import Image from "next/image";
+import Navbar from "./navbar";
 
 export default function SobreNos() {
   return (
