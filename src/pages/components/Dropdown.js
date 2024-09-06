@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import styles from '@/styles/Dropdowns.module.css';
+import styles from '../../styles/Dropdowns.module.css';
 
 export default function Dropdowns() {
   const [isFavoritosOpen, setIsFavoritosOpen] = useState(false);

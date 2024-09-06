@@ -5,7 +5,7 @@ import Link from "next/link";
 import Logo from "../../../../public/assets/cinemacth3-cropped.svg";
 import Image from "next/image";
 import GoogleBtn from "../buttons/googleBtn";
-import styles from '@/styles/FormLogin.module.css';
+import styles from '../../../styles/FormLogin.module.css';
 
 
 export default function Telalogin() {

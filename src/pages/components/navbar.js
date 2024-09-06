@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import styles from '@/styles/Navbar.module.css';
+import styles from '../../styles/Navbar.module.css';
 import Logo from '../../../public/assets/cinemacth3-cropped.svg';
 import Icon from '../../../public/assets/icon1.svg';
 import Bell from '../../../public/assets/bell.svg';

@@ -3,7 +3,7 @@ import Link from "next/link";
 import Logo from "../../public/assets/cinemacth3-cropped.svg";
 import FAQ from "./components/buttons/faq";
 import SobreNos from "./components/sobreNos";
-import styles from '@/styles/Index.module.css';
+import styles from '../styles/Index.module.css';
 
 
 export default function Home() {

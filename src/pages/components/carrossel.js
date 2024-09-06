@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import styles from '@/styles/Carrossel.module.css';
+import styles from '../../styles/Carrossel.module.css';
 import Play from '../../../public/assets/play.svg';
 import Bookmark from '../../../public/assets/bookmark.svg';
 import movies from '../../pages/data/movies.json';

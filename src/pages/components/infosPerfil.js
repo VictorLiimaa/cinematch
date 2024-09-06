@@ -3,7 +3,7 @@ import Link from "next/link";
 import Logo from "../../../public/assets/cinemacth3-cropped.svg";
 import Cadeado from "../../../public/assets/cadeado.svg";
 import Email from "../../../public/assets/email.svg";
-import styles from "@/styles/InfosPerfil.module.css";
+import styles from "../../styles/InfosPerfil.module.css";
 import Dropdowns from "../components/Dropdown";
 
 

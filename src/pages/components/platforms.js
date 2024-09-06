@@ -6,7 +6,7 @@ import Marvel from '../../../public/assets/streamings/marvel.svg';
 import Pixar from '../../../public/assets/streamings/pixar.svg';
 import Prime from '../../../public/assets/streamings/prime.svg';
 import National from '../../../public/assets/streamings/nationalG.svg';
-import styles from '@/styles/Platforms.module.css';
+import styles from '../../styles/Platforms.module.css';
 
 
 const Platforms = () => {

@@ -1,7 +1,7 @@
 "use client";
 import { signIn } from "next-auth/react";
 import Image from "next/image";
-import styles from '@/styles/GoogleBtn.module.css';
+import styles from '../../../styles/GoogleBtn.module.css';
 
 
 export default function GoogleBtn() {

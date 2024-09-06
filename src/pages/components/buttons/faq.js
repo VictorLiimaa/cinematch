@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from '@/styles/FAQ.module.css';
+import styles from '../../../styles/FAQ.module.css';
 
 export default function FAQ() {
   const [activeIndex, setActiveIndex] = useState(null);
