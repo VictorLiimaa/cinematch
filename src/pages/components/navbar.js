@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import styles from '@/styles/Navbar.module.css';
 import Logo from '../../../public/assets/cinemacth3-cropped.svg';
 import Icon from '../../../public/assets/icon1.svg';
 import Bell from '../../../public/assets/bell.svg';
@@ -14,25 +15,25 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
-      <div className="navbar-container">
-        <div className="navbar-logo">
-          <Image className="logo-navbar" src={Logo} alt="logo" />
+    <nav className={styles.navbar}>
+      <div className={styles['navbar-container']}>
+        <div className={styles['navbar-logo']}>
+          <Image className={styles['logo-navbar']} src={Logo} alt="logo" />
         </div>
-        <div className={`navbar-links ${isOpen ? 'open' : ''}`}>
-          <Link href="/" className="nav-link">Home</Link>
-          <Link href="/movies" className="nav-link">Filmes</Link>
-          <Link href="/series" className="nav-link">Series</Link>
-          <Link href="/documentaries" className="nav-link">Documentarios</Link>
-          <Link href="/lists" className="nav-link">Listas</Link>
-          <Link href="/about" className="nav-link">Sobre</Link>
+        <div className={`${styles['navbar-links']} ${isOpen ? styles.open : ''}`}>
+          <Link href="/" className={styles['nav-link']}>Home</Link>
+          <Link href="/movies" className={styles['nav-link']}>Filmes</Link>
+          <Link href="/series" className={styles['nav-link']}>Series</Link>
+          <Link href="/documentaries" className={styles['nav-link']}>Documentários</Link>
+          <Link href="/lists" className={styles['nav-link']}>Listas</Link>
+          <Link href="/about" className={styles['nav-link']}>Sobre</Link>
         </div>
-        <div className="navbar-icons">
-          <Image className="icon-search" src={Search} alt="icon de pesquisa" />
-          <Image className="icon-bell" src={Bell} alt="icon de sino" />
-          <div className="user-profile">
-            <Image className="icone" src={Icon} alt="Foto do usuario" />
-            <span>Usuario</span>
+        <div className={styles['navbar-icons']}>
+          <Image className={styles['icon-search']} src={Search} alt="icon de pesquisa" />
+          <Image className={styles['icon-bell']} src={Bell} alt="icon de sino" />
+          <div className={styles['user-profile']}>
+            <Image className={styles['icone']} src={Icon} alt="Foto do usuário" />
+            <span>Usuário</span>
           </div>
         </div>
       </div>

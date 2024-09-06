@@ -1,0 +1,31 @@
+[
+    {
+      "title": "Vingadores: Guerra Infinita",
+      "description": "Os Vingadores se unem para combater o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas.",
+      "genre": "Ação/Aventura",
+      "duration": "2h 29min - 2018",
+      "image": "/assets/vingadores.webp"
+    },
+    {
+      "title": "Homem-Aranha: Sem Volta Para Casa",
+      "description": "Com a identidade do Homem-Aranha agora revelada, Peter pede a ajuda de Doutor Estranho para restaurar sua vida.",
+      "genre": "Ação/Aventura",
+      "duration": "2h 28min - 2021",
+      "image": "/assets/homemaranha.webp"
+    },
+    {
+      "title": "Duna",
+      "description": "Paul Atreides, um jovem brilhante e talentoso, deve viajar ao planeta mais perigoso do universo para salvar o futuro de sua família.",
+      "genre": "Ficção Científica/Aventura",
+      "duration": "2h 35min - 2021",
+      "image": "/assets/Duna.png"
+    },
+    {
+      "title": "Matrix Resurrections",
+      "description": "Neo vive uma vida tranquila, mas ao ser confrontado por um velho conhecido, ele descobre que o mundo que o cerca é uma ilusão.",
+      "genre": "Ficção Científica/Ação",
+      "duration": "2h 28min - 2021",
+      "image": "/assets/matrix-bg.jpg"
+    }
+  ]
+  

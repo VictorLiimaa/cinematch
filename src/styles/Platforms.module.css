@@ -1,0 +1,23 @@
+.platforms {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: #0D0C0F;
+  }
+  
+  .platform-icons {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .platform-icons img {
+    border-radius: 18px;
+    width: 155px;
+    height: 80px;
+    transition: transform 0.3s;
+  }
+  
+  .platform-icons img:hover {
+    transform: scale(1.1);
+  }
+  

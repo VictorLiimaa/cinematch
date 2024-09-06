@@ -1,0 +1,82 @@
+.containerSobreNos {
+    display: flex;
+    background-color: #0a0a0a;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+  .sobreNos {
+    display: flex;
+    width: 40vw;
+    height: 50vh;
+    margin-top: 3%;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    flex-direction: column;
+  }
+  
+  .imagemDescricao {
+    display: flex;
+    width: 40%;
+    margin-left: 2%;
+    margin-top: 5%;
+  }
+  
+  .sobreTitulo {
+    width: 40vw;
+    height: 10vh;
+    margin-top: 13%;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .descricao {
+    width: 40vw;
+    height: 30vh;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .linha {
+    width: 100vw;
+    height: 1px;
+    background-color: #fff;
+  }
+  
+  .containerPub {
+    display: flex;
+    background-color: #0a0a0a;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  
+  .sobrePublico {
+    display: flex;
+    width: 40vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: left;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    flex-direction: column;
+  }
+  
+  .imagemPub {
+    display: flex;
+    width: 40%;
+    margin-top: 4%;
+  }
+  

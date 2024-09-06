@@ -1,0 +1,143 @@
+.carousel {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    width: 100%;
+    height: 650px;
+    background-color: #0D0C0F;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+    overflow: hidden;
+  }
+  
+  .carousel-content {
+    z-index: 2; 
+    position: relative;
+  }
+  
+  .carousel-text {
+    max-width: 60%;
+    color: white;
+    padding: 0 2rem 0 2rem;
+  }
+  
+  .carousel-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .carousel-text p {
+    margin-bottom: 0.5rem;
+    margin-right: 20%;
+  }
+  
+  .carousel-buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem; 
+    align-items: center;
+  }
+  
+  .btn-primary, .btn-secondary, .btn-tertiary {
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #7899D4;
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #7899D4;
+  }
+  
+  .btn-secondary {
+    background-color: #28262D;
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: white;
+  }
+  
+  
+  .btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .btn-tertiary {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .btn-tertiary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .btn-primary svg, .btn-secondary svg, .btn-tertiary svg {
+    margin-right: 0.5rem;
+  }
+  
+  .carousel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to bottom, 
+      rgba(13, 12, 15, 0.33) 0%,  
+      rgba(13, 12, 15, 0.515) 70%, 
+      rgb(13, 12, 15) 100% 
+    );
+    z-index: 1;
+  }
+  
+  .carousel-controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
+  .prev-slide, .next-slide {
+    background-color: rgba(0, 0, 0, 0.119);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  .prev-slide:hover, .next-slide:hover {
+    background-color: rgba(59, 57, 57, 0.479);
+  }
+  
+  .film-badge {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: white;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 2rem 0 2rem;
+  }

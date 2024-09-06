@@ -1,0 +1,29 @@
+.botao-google{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    margin-left: 10%;
+    margin-top: 1.6rem;
+    width: 80%;
+    height: 2.6rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+
+  .botao-google:hover {
+    background-color: #ffffffd3;
+  }
+  
+  .imagem-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 2rem;
+    gap: 5px;
+  }

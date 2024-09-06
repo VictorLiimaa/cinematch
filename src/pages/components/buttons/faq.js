@@ -1,4 +1,5 @@
 import { useState } from "react";
+import styles from '@/styles/FAQ.module.css';
 
 export default function FAQ() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -36,15 +37,15 @@ export default function FAQ() {
   };
 
   return (
-    <div className="faqContainer">
-      <h1 className="faqTitle">Perguntas Frequentes</h1>
+    <div className={styles.faqContainer}>
+      <h1 className={styles.faqTitle}>Perguntas Frequentes</h1>
       {faqs.map((faq, index) => (
-        <div key={index} className="faqItem">
-          <div className="question" onClick={() => toggleFAQ(index)}>
+        <div key={index} className={styles.faqItem}>
+          <div className={styles.question} onClick={() => toggleFAQ(index)}>
             {faq.question}
-            <span className="icon">{activeIndex === index ? "-" : "+"}</span>
+            <span className={styles.icon}>{activeIndex === index ? "-" : "+"}</span>
           </div>
-          {activeIndex === index && <div className="answer">{faq.answer}</div>}
+          {activeIndex === index && <div className={styles.answer}>{faq.answer}</div>}
         </div>
       ))}
     </div>

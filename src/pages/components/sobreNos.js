@@ -1,16 +1,17 @@
 import ImgDescricao from "../../../public/assets/img cine 1.svg";
 import ImgPub from "../../../public/assets/img cine 1df.svg";
 import Image from "next/image";
-import Navbar from "./navbar";
+import styles from '@/styles/SobreNos.module.css';
+
 
 export default function SobreNos() {
   return (
     <div>
-      <div className="containerSobreNos">
-        <Image className="imagemDescricao" src={ImgDescricao} alt="descricao" />
-        <div className="sobreNos">
-          <h1 className="sobreTitulo">O que é o Cinematch?</h1>
-          <p className="descricao">
+      <div className={styles.containerSobreNos}>
+        <Image className={styles.imagemDescricao} src={ImgDescricao} alt="descricao" />
+        <div className={styles.sobreNos}>
+          <h1 className={styles.sobreTitulo}>O que é o Cinematch?</h1>
+          <p className={styles.descricao}>
             O CineMatch é uma plataforma que ajuda você a descobrir novos filmes
             e séries baseados nos seus gostos e preferências pessoais.
             Utilizando algoritmos e uma vasta base de dados, oferecemos
@@ -22,14 +23,14 @@ export default function SobreNos() {
         </div>
       </div>
       <div>
-        <hr className="linha" />
+        <hr className={styles.linha} />
       </div>
 
-      <div className="containerPub">
-        <Image className="imagemPub" src={ImgPub} alt="descricao" />
-        <div className="sobrePublico">
-          <h1 className="publicoAlvo">PÚBLICO-ALVO</h1>
-          <p className="descricao">
+      <div className={styles.containerPub}>
+        <Image className={styles.imagemPub} src={ImgPub} alt="descricao" />
+        <div className={styles.sobrePublico}>
+          <h1 className={styles.publicoAlvo}>PÚBLICO-ALVO</h1>
+          <p className={styles.descricao}>
             Nosso público-alvo inclui entusiastas de cinema e televisão de todas
             as idades. Atendemos tanto espectadores ocasionais quanto cinéfilos
             ávidos, oferecendo uma gama de recomendações que vão desde
@@ -38,7 +39,7 @@ export default function SobreNos() {
         </div>
       </div>
       <div>
-        <hr className="linha" />
+        <hr className={styles.linha} />
       </div>
     </div>
   );

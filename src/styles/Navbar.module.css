@@ -1,0 +1,97 @@
+.navbar {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  color: white;
+  width: 100%;
+  height: 80px; 
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-container {
+  width: 100%; 
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0; 
+}
+
+.navbar-logo {
+  display: flex; 
+  align-items: center; 
+  width: 20%;
+}
+
+.logo-navbar {
+  width: 40%;
+  /* height: 5%; */
+  /* padding: 0 0 0 10%;  */
+  margin-left: 25%;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 3%; 
+  align-items: center;
+}
+
+.nav-link {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  font-weight: 450;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 5%;
+  gap: 1rem; 
+}
+
+.icon-bell, .icon-search {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; 
+}
+
+.user-profile img {
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+  .navbar-links.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #121212;
+    padding: 2% 0;
+  }
+}

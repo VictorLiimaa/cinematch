@@ -5,6 +5,8 @@ import Link from "next/link";
 import Logo from "../../../../public/assets/cinemacth3-cropped.svg";
 import Image from "next/image";
 import GoogleBtn from "../buttons/googleBtn";
+import styles from '@/styles/FormLogin.module.css';
+
 
 export default function Telalogin() {
   const [error, setError] = useState("");
@@ -30,29 +32,29 @@ export default function Telalogin() {
   };
 
   return (
-    <div className="container">
-      <div className="containerLogin">
-        <Image src={Logo} alt="logo" className="logoTela2" />
+    <div className={styles.container}>
+      <div className={styles.containerLogin}>
+        <Image src={Logo} alt="logo" className={styles.logoTela2} />
 
-        <div className="login">
-          <h1 className="titulo">Faça login na sua conta</h1>
-          <h2 className="subtitulo">E-mail</h2>
-          <form onSubmit={handleSubmit} className="formulario">
+        <div className={styles.login}>
+          <h1 className={styles.titulo}>Faça login na sua conta</h1>
+          <h2 className={styles.subtitulo}>E-mail</h2>
+          <form onSubmit={handleSubmit} className={styles.formulario}>
             <input
               name="email"
               type="text"
               placeholder="Digite o seu email"
-              className="inputLogin"
+              className={styles.inputLogin}
             />
-            <h2 className="subtitulo">Senha</h2>
+            <h2 className={styles.subtitulo}>Senha</h2>
 
             <input
               name="password"
               type="password"
               placeholder="Digite a sua senha"
-              className="inputLogin"
+              className={styles.inputLogin}
             />
-            <button className="btnLogin">Login</button>
+            <button className={styles.btnLogin}>Login</button>
           </form>
           {error && (
             <div
@@ -76,10 +78,10 @@ export default function Telalogin() {
           )}
           <GoogleBtn />
 
-          <Link href="/esqueceuSenha" className="esqueceuSenha">
+          <Link href="/esqueceuSenha" className={styles.esqueceuSenha}>
             Esqueceu a senha?
           </Link>
-          <Link href="/cadastro" className="esqueceuSenha">
+          <Link href="/cadastro" className={styles.esqueceuSenha}>
             Cadastre-se
           </Link>
         </div>
