@@ -59,7 +59,7 @@ export default function Genero() {
         ))}
       </div>
       <div className='proximo'>
-        <Link className="nextButton" href='/'>
+        <Link className="nextButton" href='/timeline'>
           Próximo
         </Link>
       </div>

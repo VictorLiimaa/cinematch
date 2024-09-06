@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Star from '../../../public/assets/star.svg';
-import styles from '@/styles/Section.module.css';
+import styles from '../../styles/Section.module.css';
 
 
 const Section = ({ title, items }) => {
