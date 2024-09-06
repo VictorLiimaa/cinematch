@@ -8,7 +8,7 @@ export default function SignOut() {
       onClick={() => signOut({ callbackUrl: "/" })}
       className="SingOutBtn"
     >
-      <Image src={Logout}></Image>
+      <Image src={Logout} alt="Sair" />
       
     </button>
   );

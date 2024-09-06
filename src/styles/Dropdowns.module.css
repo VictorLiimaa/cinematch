@@ -1,0 +1,54 @@
+.containerDropdowns {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.dropdownContainer {
+  position: relative;
+  width: fit-content;
+}
+
+.dropdownButton {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdownButton .icon {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Drop-down de Favoritos e Gêneros */
+.dropdownContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.filme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.btnsGeneros {
+  background-color: transparent;
+  border: 2px solid #ABABAB;
+  border-radius: 10px;
+  color: #ABABAB;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  white-space: nowrap;
+}
