@@ -8,19 +8,19 @@
   .container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Alinhar no topo */
+    align-items: flex-start; 
     max-width: 90%; 
     margin: 0 auto;
   }
   
   .leftSection {
     text-align: left;
-    width: 50%; /* A seção esquerda ocupa 50% da largura */
+    width: 50%; 
   }
   
   .rightSection {
     text-align: right;
-    width: 40%; /* A seção direita ocupa 40% da largura */
+    width: 40%; 
   }
   
   .text {
@@ -33,13 +33,13 @@
   .links {
     margin-top: 5%;
     display: flex;
-    gap: 5%; /* Espaçamento entre os links em porcentagem */
+    gap: 5%; 
   }
   
   .links a {
     color: #fff;
     text-decoration: none;
-    font-size: 80%; /* Tamanho da fonte dos links reduzido */
+    font-size: 80%;
   }
   
   .navigation {
@@ -49,18 +49,18 @@
   .navigation a {
     color: #fff;
     text-decoration: none;
-    margin: 0 5%; /* Espaçamento entre os links de navegação em porcentagem */
+    margin: 0 5%; 
   }
   
   .socialIcons {
     display: flex;
     justify-content: flex-end;
-    gap: 5%; /* Espaço entre os ícones em porcentagem */
+    gap: 5%; 
   }
   
   .icon {
-    width: 10%; /* O ícone agora terá um tamanho proporcional */
-    max-width: 24px; /* Máximo de 24px para evitar que fique muito grande */
+    width: 10%; 
+    max-width: 24px; 
     height: auto;
   }
   
