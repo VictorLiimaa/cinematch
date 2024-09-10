@@ -26,6 +26,62 @@
       "genre": "Ficção Científica/Ação",
       "duration": "2h 28min - 2021",
       "image": "/assets/matrix-bg.jpg"
+    },
+    {
+      "title": "Wish: O Poder dos Desejos",
+      "description": "Uma história emocionante onde o poder de um desejo pode mudar tudo.",
+      "genre": "Animação/Fantasia",
+      "duration": "1h 35min - 2023",
+      "image": "/assets/wish.svg"
+    },
+    {
+      "title": "Todos Menos Você",
+      "description": "Uma comédia romântica sobre como os opostos se atraem.",
+      "genre": "Comédia/Romance",
+      "duration": "1h 40min - 2023",
+      "image": "/assets/todosmenosvoce.webp"
+    },
+    {
+      "title": "Bob Marley: One Love",
+      "description": "A vida do ícone do reggae, Bob Marley, e sua influência no mundo.",
+      "genre": "Biografia/Música",
+      "duration": "2h 30min - 2023",
+      "image": "/assets/bobmarleyonelove.webp"
+    },
+    {
+      "title": "Deadpool 3: Wolverine",
+      "description": "Deadpool e Wolverine juntos em uma aventura insana.",
+      "genre": "Ação/Comédia",
+      "duration": "2h 10min - 2023",
+      "image": "/assets/deadpool3wolverine.webp"
+    },
+    {
+      "title": "Divertidamente 2",
+      "description": "As emoções estão de volta com novas aventuras no interior da mente.",
+      "genre": "Animação/Família",
+      "duration": "1h 45min - 2023",
+      "image": "/assets/divertidamente2.webp"
+    },
+    {
+      "title": "A Menina Que Roubava Livros",
+      "description": "Durante a Segunda Guerra Mundial, uma jovem encontra consolo roubando livros.",
+      "genre": "Drama/História",
+      "duration": "2h 15min - 2013",
+      "image": "/assets/ameninaqueloubalivros.webp"
+    },
+    {
+      "title": "Avatar: O Caminho da Água",
+      "description": "Jake Sully vive com sua nova família em Pandora, mas uma nova ameaça os força a lutar pela sobrevivência.",
+      "genre": "Ficção Científica/Aventura",
+      "duration": "3h 12min - 2022",
+      "image": "/assets/avatar.webp"
+    },
+    {
+      "title": "O Hobbit: A Desolação de Smaug",
+      "description": "Bilbo Bolseiro continua sua jornada para ajudar os anões a recuperar sua terra natal.",
+      "genre": "Fantasia/Aventura",
+      "duration": "2h 41min - 2013",
+      "image": "/assets/hobbit.webp"
     }
   ]
   

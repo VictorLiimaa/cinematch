@@ -1,0 +1,72 @@
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 3% 0;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinhar no topo */
+    max-width: 90%; 
+    margin: 0 auto;
+  }
+  
+  .leftSection {
+    text-align: left;
+    width: 50%; /* A seção esquerda ocupa 50% da largura */
+  }
+  
+  .rightSection {
+    text-align: right;
+    width: 40%; /* A seção direita ocupa 40% da largura */
+  }
+  
+  .text {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 50% 0 0;
+  }
+  
+  .links {
+    margin-top: 5%;
+    display: flex;
+    gap: 5%; /* Espaçamento entre os links em porcentagem */
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 80%; /* Tamanho da fonte dos links reduzido */
+  }
+  
+  .navigation {
+    margin-bottom: 5%;
+  }
+  
+  .navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5%; /* Espaçamento entre os links de navegação em porcentagem */
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%; /* Espaço entre os ícones em porcentagem */
+  }
+  
+  .icon {
+    width: 10%; /* O ícone agora terá um tamanho proporcional */
+    max-width: 24px; /* Máximo de 24px para evitar que fique muito grande */
+    height: auto;
+  }
+  
+  .copyright {
+    border-top: 1px solid #333;
+    text-align: right;
+    padding-right: 4%;
+  }
+  
