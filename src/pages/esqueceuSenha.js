@@ -7,12 +7,9 @@ export default function EsqueceuSenha() {
     event.preventDefault();
     const email = event.target.email.value;
 
-    // Adicione a lógica de envio de e-mail para redefinição de senha aqui
     if (email) {
       try {
-        // Exemplo de chamada de API ou lógica para envio de email
         console.log("Enviando e-mail para:", email);
-        // Aqui você pode chamar sua API para enviar o e-mail de redefinição de senha
         alert("Um link de redefinição de senha foi enviado para o seu e-mail.");
       } catch (error) {
         console.error("Erro ao enviar e-mail:", error);
