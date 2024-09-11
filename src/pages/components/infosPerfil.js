@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Logo from "../../../public/assets/cinemacth3-cropped.svg";
 import Cadeado from "../../../public/assets/cadeado.svg";
 import Email from "../../../public/assets/email.svg";
