@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-body,
 html {
   height: 100vh;
   width: 100vw;
@@ -33,7 +32,7 @@ html {
 
 /*Tela de Cadastro*/
 
-.containerCadastro {
+.containerCadastro{
   display: flex;
   flex-direction: space-between;
   align-items: center;
@@ -42,18 +41,14 @@ html {
   gap: 7%;
 }
 
-.logoTela3 {
+.logoTela3{
   width: 20%;
   margin-left: 15%;
 }
 
-.formulario {
-  width: 100%;
-}
-
-.tela-cadastro {
+.tela-cadastro{
   display: flex;
-  align-items: flex-start;
+  align-items:flex-start;
   width: 35%;
   height: 65vh;
   margin-left: 5%;
@@ -63,7 +58,7 @@ html {
   border-radius: 20px;
 }
 
-.titulo-cadastro {
+.titulo-cadastro{
   display: flex;
   margin-left: 10%;
   font-family: "Poppins", sans-serif;
@@ -72,7 +67,7 @@ html {
   color: #fff;
 }
 
-.subtitulo-cadastro {
+.subtitulo-cadastro{
   display: flex;
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
@@ -81,7 +76,7 @@ html {
   margin-left: 10%;
 }
 
-.inputCadastro {
+.inputCadastro{
   display: flex;
   margin-left: 10%;
   margin-top: 1rem;
@@ -96,6 +91,7 @@ html {
   padding-left: 1rem;
   background-repeat: no-repeat;
   background-position: right 10px center;
+
 }
 
 .btnCadastro {
@@ -103,7 +99,7 @@ html {
   color: #fff3f3;
   font-family: "Poppins", sans-serif;
   margin-left: 10%;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   width: 80%;
   height: 3rem;
   border-radius: 10px;
@@ -114,19 +110,18 @@ html {
   letter-spacing: 1px;
 }
 
-.btnCadastro:hover {
+.btnLogin:hover {
   background-color: #2c4d86;
 }
 
-.btnCadastro:active {
+.btnLogin:active {
   transform: scale(0.6);
 }
-
 /* Tela Inicial */
 
 .containerInicial {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #0d0c0f;
 }
 

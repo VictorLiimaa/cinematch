@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
 import Logo from "../../../../public/assets/cinemacth3-cropped.svg";
+
 import Image from "next/image";
 
 export default function Telacadastro() {
