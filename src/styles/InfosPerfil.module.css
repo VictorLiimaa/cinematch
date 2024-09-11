@@ -42,7 +42,6 @@
   align-items: center;
   flex-direction: column;
   align-items: flex-start;
-  /* margin-top: 20%; */
   margin-bottom: 5%;
 }
 
@@ -70,6 +69,15 @@
   margin-right: 130%;
 }
 
+.inputNome {
+  background-color: transparent;
+  border: 2px solid #ABABAB;
+  border-radius: 10px;
+  color: #ABABAB;
+  padding: 0.8rem;
+  width: 150%;
+}
+
 .btnInfos {
   background-color: transparent;
   border: 2px solid #ABABAB;
@@ -82,6 +90,10 @@
   justify-content: start;  
 }
 
+.btnInfos img {
+  margin-right: 8px;
+}
+
 .btnSair {
   background-color: transparent;
   border: 2px solid #EE8924;
@@ -90,9 +102,14 @@
   cursor: pointer; 
   padding: 0.8rem;
   margin-top: 15%;
-  width: 150%;
+  width: 50%;
   display: flex;
-  justify-content: center;  
+  justify-content: center; 
+}
+
+.btnSair:active {
+  background-color: #EE8924; 
+  color: #fff; 
 }
 
 /*Container das listas*/

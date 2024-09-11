@@ -72,6 +72,7 @@
     justify-content: center;
     width: 100vw;
   }
+  
   .cadastro {
     display: flex;
     width: 27vw;
@@ -88,6 +89,7 @@
     color: #fff;
     font-weight: 500;
   }
+  
   .containerFaq {
     background-color: #0a0a0a;
     padding: 2rem 0;

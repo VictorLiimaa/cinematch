@@ -5,7 +5,6 @@ import Email from "../../../public/assets/email.svg";
 import styles from "../../styles/InfosPerfil.module.css";
 import Dropdowns from "../components/Dropdown";
 
-
 export default function InfosPerfil() {
   return (
     <div className={styles.containerPai}>
@@ -23,7 +22,7 @@ export default function InfosPerfil() {
             </div>
             <div className={styles.btnPerfil}>
             <p className={styles.dadosDePerfil}>Nome:</p>
-            <button className={styles.btnInfos}>Livya Kelly</button>
+            <input type="text" className={styles.inputNome} defaultValue="Livya Kelly" />
             <p className={styles.dadosDePerfil}>Senha:</p>
             <button className={styles.btnInfos}>
                 <Image src={Cadeado} alt="icon cadeado" />
