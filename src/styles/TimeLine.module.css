@@ -3,3 +3,16 @@
     min-height: 100vh;
   }
   
+.pageContainer {
+  padding: 20px;
+}
+
+.carouselSection {
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}

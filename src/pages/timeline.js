@@ -3,6 +3,7 @@ import Footer from './components/footer';
 import Navbar from './components/navbar';
 import Platforms from './components/platforms';
 import styles from '../styles/TimeLine.module.css';
+import MovieSlider from './components/movieSlider';
 
 
 const Timeline = () => {
@@ -12,6 +13,7 @@ const Timeline = () => {
                 <Navbar />
                 <Carrossel />
                 <Platforms />
+                <MovieSlider />
                 <Footer />
             </div>
         </>
