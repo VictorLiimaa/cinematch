@@ -9,7 +9,19 @@
   flex-direction: column;
   background-color: #1f1f1f;
   width: 33vw;
+  height: 100vh;
   color: white;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center; 
+}
+
+.editarIconFoto {
+  margin-left: 210px;
+  cursor: pointer;
+  width: 28px;
 }
 
 .divPerfil {

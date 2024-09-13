@@ -10,14 +10,18 @@ import Malevola from "../../../public/assets/Malevola.jpeg";
 import Wandinha from "../../../public/assets/wandinha.jpeg";
 
 export default function Dropdowns() {
-  const [isFavoritosOpen, setIsFavoritosOpen] = useState(false);
-  const [isGenerosOpen, setIsGenerosOpen] = useState(false);
+  const [isGenerosOpen, setIsGenerosOpen] = useState(true);
+  const [isFavoritosOpen, setIsFavoritosOpen] = useState(true);
+  const [isMinhasListasOpen, setIsMinhasListasOpen] = useState(true);
 
   const toggleGeneros = () => {
     setIsGenerosOpen(!isGenerosOpen);
   };
   const toggleFavoritos = () => {
     setIsFavoritosOpen(!isFavoritosOpen);
+  };
+  const toggleMinhasListas = () => {
+    setIsMinhasListasOpen(!isMinhasListasOpen);
   };
 
   return (
@@ -50,23 +54,42 @@ export default function Dropdowns() {
           <div className={styles.dropdownContentContainer}> 
             <div className={styles.dropdownContent}>
               <div className={styles.filme}>
-                <Image src="/assets/Interstellar.jpeg" alt="Interstellar" width={120} height={180} />
+                <Image src={Interstellar} alt="Interstellar" width={120} height={180} />
               </div>
               <div className={styles.filme}>
-                <Image src="/assets/Harry Potter.jpeg" alt="Harry Potter" width={120} height={180} />
+                <Image src={HarryPotter} alt="Harry Potter" width={120} height={180} />
               </div>
               <div className={styles.filme}>
-                <Image src="/assets/Mumia.jpeg" alt="Múmia" width={120} height={180} />
+                <Image src={Mumia} alt="Múmia" width={120} height={180} />
               </div>
               <div className={styles.filme}>
-                <Image src="/assets/Malevola.jpeg" alt="Malévola" width={120} height={180} />
+                <Image src={Malevola} alt="Malévola" width={120} height={180} />
               </div>
               <div className={styles.filme}>
-                <Image src="/assets/wandinha.jpeg" alt="Wandinha" width={120} height={180} />
+                <Image src={Wandinha} alt="Wandinha" width={120} height={180} />
               </div>
             </div>
           </div>
         )}
+      </div>
+      <div className={styles.dropdownContainer}>
+        <button onClick={toggleMinhasListas} className={styles.dropdownButton}>
+            Minhas Listas <span className={styles.icon}>{isMinhasListasOpen ? <Image src={Flecha2} alt="icon flecha2" /> : <Image src={Flecha} alt="icon flecha" />}</span>
+        </button>
+      {isMinhasListasOpen && ( 
+        <div className={styles.dropdownContentContainer}> 
+        <div className={styles.dropdownContent}>
+          <div className={styles.minhasListas}>
+          <button className={styles.btnsListas}>Romance 12</button>
+          <button className={styles.btnsListas}>Ação 8</button>
+          <button className={styles.btnsListas}>Cómedia 10</button>
+          <button className={styles.btnsListas}>Terror 6</button>
+          <button className={styles.btnsListas}>Animação 5</button>
+          <button className={styles.btnsListas}>Drama 9</button>
+          </div>
+        </div>
+        </div>
+      )}
       </div>
     </div>
   );

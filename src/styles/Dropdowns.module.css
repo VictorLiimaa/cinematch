@@ -1,7 +1,7 @@
 .containerDropdowns {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
   width: 100%;
 }
 
@@ -11,8 +11,8 @@
   background-color: #1F1F1F;
   border-radius: 10px;
   padding: 1rem;
-  width: fit-content;
   cursor: pointer;
+  width: 100%;
 }
 
 .dropdownButton {
@@ -27,36 +27,35 @@
 
 .dropdownButton .icon {
   margin-left: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 0.3rem;
 }
 
 /* Drop-down de Favoritos e Gêneros */
 .dropdownContentContainer { 
   padding: 1rem;
   border-radius: 15px;
-  width: fit-content;
+  margin: -0.5rem 1.2rem;
 }
 
 .dropdownContent {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  margin: 1rem 0;
+  margin: 0 0;
 }
 
 .filme {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15px;
+  margin: 0 15px;
 }
 
 .filme img {
   border-radius: 8px; 
-  width: 105%;
+  width: 100%;
 }
 
-.btnsGeneros {
+.btnsGeneros, .btnsListas {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   width: 20%;
@@ -70,3 +69,11 @@
   transition: background-color 0.8s, color 0.5s;
   white-space: nowrap; 
 }
+
+.minhasListas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 55px;
+}
+  
