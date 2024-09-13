@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "../../../../public/assets/cinemacth3-cropped.svg";
 import Link from "next/link";
+import styles from "../../../styles/Generos.module.css";
 
 const generos = [
   "Ação",
@@ -38,28 +39,28 @@ export default function Genero() {
   };
 
   return (
-    <div className="containerGenero">
-      <div className="logo-generos">
-        <Image src={Logo} alt="logo" className="logo-tela-genero" />
+    <div className={styles.containerGenero}>
+      <div className={styles.logoGeneros}>
+        <Image src={Logo} alt="logo" className={styles.logoTelaGenero} />
       </div>
-      <div className='generos-filmes-fav'>
+      <div  className={styles.generosFilmesFav}>
         <h1>Quais são seus gêneros de filmes favoritos?</h1>
       </div>
-      <div className="generos">
+      <div className={styles.generos}>
         {generos.map((genero, index) => (
           <button
             key={index}
             onClick={() => toggleGenero(genero)}
-            className={`generoButton ${
-              selectedGeneros.includes(genero) ? "selected" : ""
+            className={`${styles.generoButton} ${
+              selectedGeneros.includes(genero) ? styles.selected : ""
             }`}
           >
             {genero}
           </button>
         ))}
       </div>
-      <div className='proximo'>
-        <Link className="nextButton" href='/timeline'>
+      <div className={styles.proximo}>
+        <Link className={styles.nextButton} href='/timeline'>
           Próximo
         </Link>
       </div>

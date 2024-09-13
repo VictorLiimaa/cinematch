@@ -1,0 +1,81 @@
+.containerInicial {
+    width: 100%;
+    height: 100vh;
+    background-color: #0d0c0f;
+  }
+
+  .navInicial {
+    display: flex;
+    height: 23vh;
+    width: 100vw;
+  }
+
+  .logoInicio {
+    display: flex;
+    width: 10%;
+    height: 30%;
+    margin-top: 3%;
+    margin-left: 4%;
+  }
+
+  .SingOutBtn {
+    display: flex;
+    justify-content:end ;
+    align-items: center;
+    margin-left: 80%;
+    height: 80%;
+    border: none;
+    cursor: pointer;
+    background-color: transparent
+  }  
+  
+  .boasvindas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 100vw;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    gap: 1rem;
+    margin-top: 5%;
+  }
+
+  .tituloInicial {
+    font-size: 1.4rem;
+    width: 40vw;
+    text-align: center;
+  }
+
+  .subtitleInicial {
+    font-size: 1rem;
+    width: 40vw;
+    text-align: center;
+  }
+
+  .btnIniciarQuestionario {
+    display: flex;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    margin-top: 3rem;
+    width: 25vw;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    transition: 0.9s;
+    cursor: pointer;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: linear-gradient(45deg, #6a4dff, #b187e8, #b187e8);
+  }
+  
+  .btnIniciarQuestionario:hover {
+    background: linear-gradient(45deg, #7899d4, #f06595, #b187e8);
+  }
+  
+  .btnIniciarQuestionario:active {
+    transform: scale(0.6);
+  }

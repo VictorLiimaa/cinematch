@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
 import Logo from "../../../../public/assets/cinemacth3-cropped.svg";
-
 import Image from "next/image";
+import styles from "../../../styles/FormCadastro.module.css";
 
 export default function Telacadastro() {
 
@@ -32,47 +32,46 @@ export default function Telacadastro() {
     const data = await res.json();
 
     if (res.ok) {
-      router.push("/login"); // Redireciona para a página de login após o cadastro 
+      router.push("/login");
     } else {
       setError(data.message); 
     }
   };
 
-
   return (
-    <div className="container">
-      <div className="containerCadastro">
-        <Image src={Logo} alt="logo" className="logoTela3" />
-        <div className="tela-cadastro">
-          <h1 className="titulo-cadastro">Crie a sua conta</h1>
+    <div className={styles.container}>
+      <div className={styles.containerCadastro}>
+        <Image src={Logo} alt="logo" className={styles.logoTela3} />
+        <div className={styles.telaCadastro}>
+          <h1 className={styles.tituloCadastro}>Crie a sua conta</h1>
          
-          <form onSubmit={handleSubmit} className="formulario">
-          <h2 className="subtitulo-cadastro">Nome</h2>
+          <form onSubmit={handleSubmit} className={styles.formulario}>
+          <h2 className={styles.subtituloCadastro}>Nome</h2>
 
           <input
             name="name"
             type="text"
             placeholder="Digite o seu nome..."
-            className="inputCadastro"
+            className={styles.inputCadastro}
           />
 
-          <h2 className="subtitulo-cadastro">E-mail</h2>
+          <h2 className={styles.subtituloCadastro}>E-mail</h2>
           <input
             name="email"
             type="email"
             placeholder="Digite o seu email..."
-            className="inputCadastro"
+            className={styles.inputCadastro}
           />
 
-          <h2 className="subtitulo-cadastro">Senha</h2>
+          <h2 className={styles.subtituloCadastro}>Senha</h2>
           <input
             name="password"
             type="password"
             placeholder="Digite a sua senha..."
-            className="inputCadastro"
+            className={styles.inputCadastro}
           />
           
-          <button type="submit" className="btnLogin">
+          <button type="submit" className={styles.btnCadastro}>
               Cadastro
           </button>
           </form>
@@ -90,7 +89,7 @@ export default function Telacadastro() {
                 fontSize: "14px",
                 zIndex: 1000,
                 boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
-              }}>{error}</p>} {/* Exibir mensagem de erro */}
+              }}>{error}</p>}
 
         </div>
       </div>
