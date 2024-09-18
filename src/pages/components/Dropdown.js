@@ -32,7 +32,7 @@ export default function Dropdowns() {
         </button>
         {isGenerosOpen && (
           <div className={styles.dropdownContentContainer}>
-            <div className={styles.dropdownContent}>
+            <div className={styles.dropdownContentGen}>
               <button className={styles.btnsGeneros}>Ação</button>
               <button className={styles.btnsGeneros}>Fantasia</button>
               <button className={styles.btnsGeneros}>Comédia</button>
@@ -52,7 +52,7 @@ export default function Dropdowns() {
         </button>
         {isFavoritosOpen && (
           <div className={styles.dropdownContentContainer}> 
-            <div className={styles.dropdownContent}>
+            <div className={styles.dropdownContentFav}>
               <div className={styles.filme}>
                 <Image src={Interstellar} alt="Interstellar" width={120} height={180} />
               </div>
@@ -78,7 +78,7 @@ export default function Dropdowns() {
         </button>
       {isMinhasListasOpen && ( 
         <div className={styles.dropdownContentContainer}> 
-        <div className={styles.dropdownContent}>
+        <div className={styles.dropdownContentLis}>
           <div className={styles.minhasListas}>
           <button className={styles.btnsListas}>Romance 12</button>
           <button className={styles.btnsListas}>Ação 8</button>
@@ -86,6 +86,8 @@ export default function Dropdowns() {
           <button className={styles.btnsListas}>Terror 6</button>
           <button className={styles.btnsListas}>Animação 5</button>
           <button className={styles.btnsListas}>Drama 9</button>
+          <button className={styles.btnsListas}>Fantasia 7</button>
+          <button className={styles.btnsListas}>Suspense 3</button>
           </div>
         </div>
         </div>

@@ -35,18 +35,12 @@
 }
 
 .logo {
-  width: 20%; 
+  width: 70px; 
   height: auto;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   margin: 35px 50px;
-}
-
-.logo-tela-perfil {
-  width: 25%; 
-  height: auto;
-  margin-top: 8%;
 }
 
 .fotoPerfil {
@@ -64,16 +58,16 @@
   justify-content: center;
   width: 190px; 
   height: 190px;
-  margin-bottom: 15%;
+  margin-bottom: 10px;
 }
 
 .btnPerfil {
   padding: 0.8rem;
-  width: 50%;
+  width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -10%;
+  margin-top: -8%;
 }
 
 .dadosDePerfil {
@@ -87,7 +81,7 @@
   border-radius: 10px;
   color: #ABABAB;
   padding: 0.8rem;
-  width: 150%;
+  width: 300px;
 }
 
 .btnInfos {
@@ -96,10 +90,11 @@
   border-radius: 10px;
   color: #ABABAB;
   cursor: pointer; 
-  padding: 0.8rem;
-  width: 150%;
+  padding: 0.7rem;
+  width: 300px;
   display: flex;
-  justify-content: start;  
+  justify-content: start; 
+  align-items: center; 
 }
 
 .btnInfos img {
@@ -113,8 +108,8 @@
   color: #EE8924;
   cursor: pointer; 
   padding: 0.8rem;
-  margin-top: 15%;
-  width: 50%;
+  margin-top: 16%;
+  width: 300px;
   display: flex;
   justify-content: center; 
 }
