@@ -4,7 +4,7 @@ import Cadeado from "../../../public/assets/cadeado.svg";
 import Email from "../../../public/assets/email.svg";
 import EditarFoto from "../../../public/assets/editar foto.svg";
 import styles from "../../styles/InfosPerfil.module.css";
-import Dropdowns from "../components/Dropdown";
+import Dropdowns from "../components/dropdown";
 
 export default function InfosPerfil() {
   return (

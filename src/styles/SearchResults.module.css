@@ -1,0 +1,30 @@
+.searchContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #0A0A0A;
+    color: white;
+    height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  .logo {
+    width: 100px;  
+    height: auto; 
+  }  
+  
+  .nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .profile {
+    color: white;
+  }
+  
