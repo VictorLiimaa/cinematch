@@ -4,7 +4,6 @@ import Cadeado from "../../../public/assets/cadeado.svg";
 import Email from "../../../public/assets/email.svg";
 import EditarFoto from "../../../public/assets/editar foto.svg";
 import styles from "../../styles/InfosPerfil.module.css";
-import Dropdowns from "./dropdown";
 
 export default function InfosPerfil() {
   return (
@@ -53,7 +52,6 @@ export default function InfosPerfil() {
       {/* Container das listas */}
       <div className={styles.containerListas}>
         <div className={styles.listas}>
-          <Dropdowns />
         </div>
       </div>
     </div>
