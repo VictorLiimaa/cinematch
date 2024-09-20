@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import Image from 'next/image';
+
 import styles from '../../styles/MovieSlider.module.css';
 import React from 'react';
 import Slider from 'react-slick';

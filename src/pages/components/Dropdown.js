@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import styles from '@/styles/Dropdowns.module.css';
+import styles from '../../styles/Dropdowns.module.css';
 import Flecha from "../../../public/assets/flecha.svg";
 import Flecha2 from "../../../public/assets/flecha2.svg";
 import Interstellar from "../../../public/assets/Interstellar.jpeg";
-import HarryPotter from "../../../public/assets/Harry Potter.jpeg";
+import HarryPotter from "../../../public/assets/Harry-Potter.jpeg";
 import Mumia from "../../../public/assets/Mumia.jpeg";
 import Malevola from "../../../public/assets/Malevola.jpeg";
 import Wandinha from "../../../public/assets/wandinha.jpeg";
