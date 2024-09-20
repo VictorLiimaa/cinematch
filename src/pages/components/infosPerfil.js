@@ -6,7 +6,6 @@ import EditarFoto from "../../../public/assets/editar foto.svg";
 import styles from "../../styles/InfosPerfil.module.css";
 import Dropdowns from "./dropdown";
 
-
 export default function InfosPerfil() {
   return (
     <div className={styles.containerPai}>

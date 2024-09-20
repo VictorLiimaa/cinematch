@@ -1,30 +1,59 @@
 .searchContainer {
-    display: flex;
-    flex-direction: column;
-    background-color: #0A0A0A;
-    color: white;
-    height: 100vh;
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-  }
+  display: flex;
+  flex-direction: column;
+  background-color: #0A0A0A;
+  color: white;
+  height: 100vh;
+}
 
-  .logo {
-    width: 100px;  
-    height: auto; 
-  }  
-  
-  .nav a {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .profile {
-    color: white;
-  }
-  
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+}
+
+.logo {
+  width: 100px;
+  height: 70px;
+}
+
+.nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.profile {
+  color: white;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchInputContainer {
+  position: relative;
+  width: 38%;
+}
+
+.searchBar input {
+  width: 100%;
+  padding: 0.5rem 40px 0.5rem 20px; 
+  border: 2px solid #555;
+  border-radius: 6px;
+  background-color: #0A0A0A;
+  color: white;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
