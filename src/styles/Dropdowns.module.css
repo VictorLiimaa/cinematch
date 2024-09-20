@@ -1,4 +1,4 @@
-.containerDropdowns {
+/* .containerDropdowns {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -29,6 +29,8 @@
 }
 
 /* Drop-down de Favoritos e Gêneros */
+
+/*
 .dropdownContentContainer { 
   padding: 0.8rem;
   border-radius: 15px;
@@ -105,4 +107,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
+
+/*Código copiado e colado em InfosPerfil.module.css*/

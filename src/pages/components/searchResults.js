@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Logo from "../../../public/assets/cinemacth3-cropped.svg";
-import styles from '../../styles/SearchResults.module.css';
 import SearchIcon from '../../../public/assets/search.svg';
+import styles from '../../styles/SearchResults.module.css';
 
 export default function SearchResults() {
   const [query, setQuery] = useState('');

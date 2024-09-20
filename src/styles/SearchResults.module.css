@@ -41,7 +41,7 @@
 
 .searchBar input {
   width: 100%;
-  padding: 0.5rem 40px 0.5rem 20px; 
+  padding: 0.5rem 0px 0.5rem 20px; 
   border: 2px solid #555;
   border-radius: 6px;
   background-color: #0A0A0A;
