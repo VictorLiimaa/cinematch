@@ -9,6 +9,7 @@ import Mumia from "../../../public/assets/Mumia.jpeg";
 import Malevola from "../../../public/assets/Malevola.jpeg";
 import Wandinha from "../../../public/assets/wandinha.jpeg";
 
+
 export default function Dropdowns() {
   const [isGenerosOpen, setIsGenerosOpen] = useState(true);
   const [isFavoritosOpen, setIsFavoritosOpen] = useState(true);
